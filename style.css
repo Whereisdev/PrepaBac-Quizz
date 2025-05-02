@@ -1,0 +1,114 @@
+header{ 
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+header h1 {
+font-size: 2.5rem;
+color: white;
+margin-bottom: 0.5rem;
+}
+.tagline {
+font-size: 1.2rem;
+font-weight: 300;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    }
+    .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+    color: #333;
+    }
+    .question {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    .options {
+    display: flex;
+    flex-direction: column;
+    }
+    .option {
+    margin: 5px 0;
+    }
+    #submit, #start {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    }
+    #result {
+        margin-top: 20px;
+        font-weight: bold;
+        }
+        .incorrect {
+        color: red;
+        }
+        .correct-answer {
+        color: green;
+        font-weight: bold;
+        }
+        
+        
+.btn {
+	display: inline-block;
+	background-color: #FFC107;
+	color: #333;
+	padding: 0.8rem 1.5rem;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.btn:hover {
+background-color: #FFD54F;
+}
+     
+.card {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 1.5rem;
+margin-bottom: 1.5rem;
+}
+
+.progress-bar {
+width: 100%;
+height: 20px;
+background-color: #e0e0e0;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.progress {
+height: 100%;
+background-color: #4CAF50;
+transition: width 0.5s ease-in-out;
+}        
+        
+@media (max-width: 768px){
+#start-form{
+	margin: 20px;
+}
+}

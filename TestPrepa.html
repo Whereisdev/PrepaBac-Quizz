@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="1.css">
+<title>App de quizz</title>
+    </head>
+    
+<header>  
+<h1>PrepaBac</h1>
+<p class="tagline">Boostez vos révisions, réussissez votre bac !</p>
+</header>
+    
+    <body>
+    <div class="container">
+    <div id="start-screen"><h1>QCM</h1>
+    <form id="start-form">
+    <label for="pseudo">Pseudo :</label>
+    <input type="text" id="pseudo" required>
+    <label for="level">Niveau d'études :</label>
+    <select id="level" required>
+    <option value="Informatique">Informatique</option>
+    <option value="premiere">Première</option>
+    <option value="terminale">Terminale</option>
+    </select>
+    <button type="submit" id="start">Commencer le quiz</button>
+    </form>
+    </div>
+    <div id="quiz-screen" style="display:none;">
+    <h1>QCM</h1>
+    <form id="quiz-form">
+    <div id="quiz"></div>
+    <button type="submit" id="submit">Valider</button>
+    </form>
+    <div id="result"></div>
+    </div>
+    <section id="results" class="card" style="display: none;">
+	<h2>Résultats</h2>
+	<div id="score"></div>
+	<div class="progress-bar"><div id="score-progress" 			class="progress"></div>
+	</div>
+	<div id="feedback"></div>
+	<button id="retry-exam" class="btn">Réessayer</button>
+	<button id="new-exam" class="btn">Nouveau sujet</button>
+	</section>
+    </div>
+    <script src="1.js"></script>
+</body>
+</html>
